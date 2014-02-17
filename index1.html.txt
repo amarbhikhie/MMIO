@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		
+		<title>amar bhikhie - Portfolio</title>
+		
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+
+	<body>
+	
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="deliverables.html">Deliverables</a></li>
+			<li><a href="dump.html">Dump</a></li>
+		</ul> 
+
+		<h1>MIT: Learnablity</h1>
+		<img src="images/droevig.jpg" alt="MIT: Learnability" width="70%">
+		
+		<h1>MIT: Visibility</h1>
+		<img src="images/droevig.jpg" alt="MIT: Visibility" width="70%">
+		
+		<h1>MIT: Prototyping</h1>
+		<img src="images/droevig.jpg" alt="MIT: Prototyping" width="70%">
+
+	</body>
+</html> 

@@ -6,9 +6,17 @@
     margin: 0;  
 }  
 #menu ul li a {  
-    /* Nieuw */  
     padding: 15px;  
     background-color: #44699C;  
     font-family: Verdana;  
     color: white;  
 }  
+#menu ul li a:hover {  
+    /* Nieuw */  
+    background-color: #5F94DC;  
+} 
+
+
+
+
+

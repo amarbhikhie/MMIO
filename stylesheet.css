@@ -1,11 +1,11 @@
-#menu ul {  
+menu ul {  
     list-style-type: none;  
 }  
-#menu ul li {  
+menu ul li {  
     display: inline;  
     margin: 0;  
 }  
-#menu ul li a {  
+menu ul li a {  
     /* Nieuw */  
     padding: 15px;  
     background-color: #44699C;  

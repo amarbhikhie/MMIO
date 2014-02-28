@@ -1,6 +1,23 @@
 
+#content{
+	opacity:0.90;
+	margin: 30px 0;
+	background: #ffffff;
+	border: 1px solid black;
+	filter: alpha(opacity=60);
+	padding: 20px;
+	clear: both;
+}
 
-
+#content p{
+	font-size: 1.5em;	  
+	font-weight:bold;
+	color:#000000;
+	font-weight:normal;
+	font-size: 18px;
+	font-family:Georgia;
+	opacity: 0.80;
+}
 
 #menu, #menu ul {
 padding: 3px 0 0 0;

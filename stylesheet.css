@@ -65,11 +65,5 @@
 {
 	background:#ccc;
 	background-image:url('uvalogo.jpg');
-	opacity:0.85;
-	color:#fff;
-	text-align: right;
-	padding: 15px;
-	height: 250px;
-	position:relative;
-	bottom:-18px;
+
 }

@@ -35,52 +35,7 @@
 	height:200px;
 	
 }
-#navigation
-{
-	float: left;
-	width: 900px;
-	background:rgba(55,55,55,0.5);
 
-	position: absolute;
-	top:259px;
-}
-
-#navigation ul
-{
-	margin: 0;
-	padding: 0;
-
-}
-
-#navigation ul li
-{
-	list-style-type: none;
-	display: inline;
-}
-
-#navigation li a
-{
-	display: block;
-	float: left;
-	padding: 15px 20px;
-	color:#fff;
-	text-decoration: none;
-
-}
-
-#navigation li a:hover 
-{ 
-	background:rgba(192,192,192,0.5); 
-	color:#FFF;
-
-}
-
-
-#navigation li#current a {
-	background:#FFF; 
-	color:#333;
-
-}
 
 
 #content

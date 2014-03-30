@@ -15,3 +15,11 @@
     /* Nieuw */  
     background-color: #5F94DC;  
 }  
+
+#container
+{
+	margin: 0 auto;
+	width: 900px;
+	background:#fff;
+	position:relative;
+	top:-10px;

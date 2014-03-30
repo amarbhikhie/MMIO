@@ -1,87 +1,58 @@
-#inhoud{
-	opacity:0.90;
-	margin: 30px 0;
-	background: #ffffff;
-	border: 1px solid black;
-	filter: alpha(opacity=60);
-	padding: 20px;
-	clear: both;
-}
+<style type="text/css">
 
-#inhoud p{
-	font-size: 1.5em;	  
-	font-weight:bold;
-	color:#000000;
-	font-weight:normal;
-	font-size: 18px;
-	font-family:Georgia;
-	opacity: 0.80;
-}
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	margin-bottom:1em; /*margin between menu and rest of page*/
+	overflow:hidden;
+	}
 
-#menu, #menu ul {
-padding: 3px 0 0 0;
-margin: 0;
-list-style: none;
-}
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+	
+	}
 
-#menu li {
-float: left;
-width: 120px;
-}
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
 
-#menu ul {
-position: absolute;
-width: 120px;
-left: -1000px;
-}
+#tabs a {
+	float:left;
+	background:url("media/left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+	}
 
-#menu li:hover ul, #menu li.ie_does_hover ul {
-left: auto;
-background-position: 0 0;
-}
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("media/right.png") no-repeat right top;
+	padding:6px 15px 4px 6px;
+	margin-right:2px;
+	color:#FFF;
+	}
 
-#menu a {
-display: block;
-margin: 2px 5px 3px 5px;
-text-decoration: none;
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 1em;
-}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
 
-ul a{
-font-weight: bold;
-color: #F60;
-cursor: default;
-}
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	}
 
-ul ul a:link, ul ul a:visited{
-font-weight: normal;
-color: #CCC;
-cursor: pointer;
-}
+#tabs a:hover {
+	background-position:0% -42px;
+	}
 
-ul ul a:hover, ul ul a:active{
-font-weight: normal;
-color: #FFF;
-cursor: pointer;
-}
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
 
-ul li{
-background-color: #CCC;
-border-left: 3px solid #FFF;
-}
-
-ul ul li{
-background-color: #666;
-border-top: 3px solid #FFF;
-border-left: 0;
-}
-
-/* IE only hack \*/
-* html ul li, * html ul ul li{
-border-bottom: 3px solid #FFF;
-}
-
-* html ul ul li{
-border-top: 0;
-}
+</style>

@@ -72,3 +72,14 @@
 	height:200px;
 
 }
+
+#image
+{	
+	max-width: 100%
+	line-height: 25px;
+	text-align: left;
+	font-family: "Helvetica", serif;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
